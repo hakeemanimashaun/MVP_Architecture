@@ -12,7 +12,6 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto"
         android:text="@string/heading"
         android:textAlignment="center"
         android:textColor="@android:color/holo_green_dark"
@@ -30,7 +29,6 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto"
         android:text="@string/subHeading"
         android:textAlignment="center"
         android:textColor="@android:color/holo_green_dark"
@@ -44,16 +42,12 @@
         app:layout_constraintVertical_bias="0.356" />
 
     <!-- TextView to display the random string -->
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="411dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto"
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:gravity="center"
         android:padding="8dp"
-        android:text="@string/description"
-        android:textAlignment="center"
-        android:textAppearance="?android:attr/textAppearanceSearchResultTitle"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -93,8 +87,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
-        android:layout_height="90dp"
-        android:contentDescription="@string/banner"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
